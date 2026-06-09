@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>J.W LEE | Architecture Portfolio</title>
+    <title>Sonya Sim | Architecture Portfolio</title>
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -95,13 +95,14 @@
 
     <!-- Navigation -->
     <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 py-6 px-8 md:px-16 flex justify-between items-center text-white">
-        <a href="#" class="font-serif text-2xl font-semibold tracking-wider">J.W LEE<span class="text-arch-accent">.</span></a>
+        <a href="#" class="font-serif text-2xl font-semibold tracking-wider">SONYA SIM<span class="text-arch-accent">.</span></a>
         
         <!-- Desktop Menu -->
         <div class="hidden md:flex space-x-10 text-sm tracking-widest uppercase font-medium">
             <a href="#home" class="hover:text-arch-accent transition-colors">Home</a>
             <a href="#about" class="hover:text-arch-accent transition-colors">About</a>
             <a href="#projects" class="hover:text-arch-accent transition-colors">Projects</a>
+            <a href="#guestbook" class="hover:text-arch-accent transition-colors">Guestbook</a>
             <a href="#contact" class="hover:text-arch-accent transition-colors">Contact</a>
         </div>
 
@@ -116,6 +117,7 @@
         <a href="#home" class="text-2xl font-serif tracking-widest hover:text-arch-accent" onclick="toggleMobileMenu()">Home</a>
         <a href="#about" class="text-2xl font-serif tracking-widest hover:text-arch-accent" onclick="toggleMobileMenu()">About</a>
         <a href="#projects" class="text-2xl font-serif tracking-widest hover:text-arch-accent" onclick="toggleMobileMenu()">Projects</a>
+        <a href="#guestbook" class="text-2xl font-serif tracking-widest hover:text-arch-accent" onclick="toggleMobileMenu()">Guestbook</a>
         <a href="#contact" class="text-2xl font-serif tracking-widest hover:text-arch-accent" onclick="toggleMobileMenu()">Contact</a>
         <button class="absolute top-8 right-8 text-3xl" onclick="toggleMobileMenu()">
             <i class="ph ph-x"></i>
@@ -166,7 +168,7 @@
 
             <!-- Bio -->
             <div class="w-full lg:w-7/12 fade-up" style="transition-delay: 0.2s;">
-                <h2 class="font-serif text-4xl md:text-5xl mb-6 text-arch-black">이진우 <span class="text-lg text-arch-gray font-sans ml-2">Jinwoo Lee</span></h2>
+                <h2 class="font-serif text-4xl md:text-5xl mb-6 text-arch-black">심쏘냐 <span class="text-lg text-arch-gray font-sans ml-2">Sonya Sim</span></h2>
                 <p class="text-arch-accent tracking-widest text-sm font-medium uppercase mb-8">Architectural Designer</p>
                 
                 <div class="space-y-6 text-arch-dark font-light leading-relaxed mb-10">
@@ -331,6 +333,27 @@
         </div>
     </section>
 
+    <!-- Guestbook Section -->
+    <section id="guestbook" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6 md:px-16">
+            <div class="fade-up mb-12 text-center md:text-left">
+                <h2 class="font-serif text-4xl md:text-5xl text-arch-black">Guestbook</h2>
+                <p class="text-arch-gray mt-4 font-light">방문해주셔서 감사합니다. 자유롭게 방명록을 남겨주세요.</p>
+            </div>
+
+            <!-- Padlet Embed -->
+            <div class="fade-up w-full bg-white p-2 md:p-4 rounded-xl shadow-sm border border-gray-100" style="transition-delay: 0.2s;">
+                <iframe 
+                    src="https://padlet.com/syshim0407/padlet-lc4jd199zkne0n9" 
+                    frameborder="0" 
+                    allow="camera;microphone;geolocation" 
+                    class="w-full h-[600px] md:h-[700px] rounded-lg"
+                    style="display:block; padding:0; margin:0;">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="py-24 bg-arch-black text-white">
         <div class="max-w-4xl mx-auto px-6 md:px-16 text-center">
@@ -371,9 +394,9 @@
     <footer class="bg-arch-black border-t border-gray-800 text-arch-gray py-12">
         <div class="max-w-7xl mx-auto px-6 md:px-16 flex flex-col md:flex-row justify-between items-center">
             <div class="mb-6 md:mb-0 text-center md:text-left">
-                <a href="#" class="text-white font-serif text-xl tracking-wider block mb-2">J.W LEE<span class="text-arch-accent">.</span></a>
+                <a href="#" class="text-white font-serif text-xl tracking-wider block mb-2">SONYA SIM<span class="text-arch-accent">.</span></a>
                 <p class="text-sm font-light">Seoul, South Korea | Architecture & Design</p>
-                <p class="text-sm font-light mt-1">E. hello@jwlee-arch.com | T. +82 10-0000-0000</p>
+                <p class="text-sm font-light mt-1">E. hello@sonya-arch.com | T. +82 10-0000-0000</p>
             </div>
             
             <div class="flex space-x-6 text-2xl">
@@ -383,7 +406,7 @@
             </div>
         </div>
         <div class="max-w-7xl mx-auto px-6 md:px-16 mt-8 pt-8 border-t border-gray-800 text-xs text-center md:text-left font-light flex flex-col md:flex-row justify-between">
-            <p>&copy; 2026 Jinwoo Lee. All Rights Reserved.</p>
+            <p>&copy; 2026 Sonya Sim. All Rights Reserved.</p>
             <p class="mt-2 md:mt-0">Designed & Built for Portfolio</p>
         </div>
     </footer>
